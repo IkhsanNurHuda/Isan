@@ -25,5 +25,5 @@ Metode pada sistem irigasi cerdas menggunakan Penerapan Machine Learning (Pembel
 8.	Pemeliharaan Model: Model perlu diperbarui secara berkala dengan data yang lebih baru untuk mempertahankan kinerja yang baik seiring berjalannya waktu.
 
 
-Dengan adanya inovasi AI maka petani dapat menghadapi tantangan lingkungan yang ada serta dapat meningkatkan produktivitas hasil tanam. AI dapat membawa perubahan pada bidang pertanian dengan menciptkan teknologi-teknologi yang dapat memudahkan dan meringankan kerja para petani. 
+
 
