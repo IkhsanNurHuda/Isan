@@ -11,8 +11,6 @@ Berbagai macam dampak yang dihasilkan oleh kemacetan dan bersifat negatif, setel
 ### Tujuan 
 Sistem pemantauan kendaraan yang lalu Lalang di jalan raya atau area tertentu dengan mengumpulkan informasi banyaknya Kendaraan yang melalui satu ruas jalan sehingga  kepadatan lalu lintas dapat di pantau dan tujuannya yaitu untuk manajemen lalu lintas, dan perencanaan infrastruktur transportasi.
 
-### Followchart
-
 ### Cara Kerja Aplikasi 
 1.	Input Rekaman Video ialah ketika memasukan rekaman video yang dibutukan program untuk mendeteksi kendaraan yang lewat.
 
