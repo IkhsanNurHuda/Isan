@@ -1,4 +1,4 @@
-![image](https://github.com/IkhsanNurHuda/Isan/assets/149056596/7cffca1b-c788-4d9d-bab8-d806a7ba9028)![image](https://github.com/IkhsanNurHuda/Isan/assets/149056596/9d581165-5c05-4349-82d8-e86d1427bb94)# Anggota Kelompok 
+# Anggota Kelompok 
 ### Takbir Ahmad Fauzan  
 ### Mohamad Irfan
 ### Ikhsan Nur Huda
