@@ -1,4 +1,4 @@
-# Anggota Kelompok 
+![image](https://github.com/IkhsanNurHuda/Isan/assets/149056596/7cffca1b-c788-4d9d-bab8-d806a7ba9028)![image](https://github.com/IkhsanNurHuda/Isan/assets/149056596/9d581165-5c05-4349-82d8-e86d1427bb94)# Anggota Kelompok 
 ### Takbir Ahmad Fauzan  
 ### Mohamad Irfan
 ### Ikhsan Nur Huda
@@ -36,6 +36,23 @@ Sistem ini mampu mengidentifikasi banyaknya kendaraan yang melintas di ruas jala
 
 ### User Interface 
 Front-end antarmuka pengguna grafis (GUI), Melalui GUI ini, operator lalu lintas dapat memonitor alur lalu lintas, Banyaknya kendaran yang dilalui ruas jalan dan pemantauan CCTV di jalan raya. Selain itu, GUI ini memberikan keahlian kepada operator untuk mengidentifikasi lokasi kamera yang mengelola lalu lintas. User Interface (UI) akan menampilkan hasil penghitungan kendaraan dengan cara yang mudah dimengerti. Ini mungkin mencakup angka jumlah kendaraan yang telah dihitung, visualisasi deteksi objek seperti bounding boxes atau garis lintasan kendaraan, serta metrik kinerja seperti tingkat akurasi atau kecepatan penghitungan
+
+### Pengembangan Sistem 
+Pengembangan pada sistem ini ditambahkan fitur Pendeteksian, Pendeteksian ini dilakukan untuk mempermudah pengecekan plat nomor dengan menggunakan sistem dengan menggunakan data yang sudah dilatih. Pengembangan pada sistem ini ditambahkan pendeteksian pada plat nomor kendaraan. Pendeteksian pada penelitian ini akan menggunakan dataset plat nomor kendaraan Indonesia agar dapat mendeteksi teks dari plat nomor Indonesia.
+
+### Interface Engine 
+1. Tesseract OCR
+2. Image Processing
+3. OpenCV
+4. Phyton & Pycharm
+
+ ### Perancangan Software Yang Dipersiapkan 
+1. Persiapan data training melibatkan pengumpulan gambar, pemberian label pada gambar, penggunaan pretrained weights YOLOv3, pretrained weights untuk lapisan konvolusi, penyusunan file konfigurasi kustom YOLOv3, serta penyediaan file obj.data, obj.names, dan train.txt.
+2. Dalam merancang sistem pendeteksian objek ini, penulis menggunakan beberapa pustaka yang sudah tersedia dalam lingkup Python, seperti OpenCV dan Numpy. OpenCV digunakan untuk memproses video secara real-time dan mengekstrak informasi yang terdapat dalam video tersebut, sedangkan Numpy berperan dalam pengolahan data berupa array.
+3. Pendeteksian teks dalam desain ini dibuat dengan memanfaatkan Tesseract OCR. Dalam implementasinya, Tesseract OCR akan diakses menggunakan pytesseract, yang merupakan satu file program dengan sistem pendeteksian objek. Dalam konteks penelitian ini, peneliti tidak melakukan penyesuaian khusus terhadap karakter pada proses pendeteksian teks.
+
+
+
 
 ### Kesimpulan 
 Aplikasi penghitung kendaraan menggunakan metode YOLO Object Detection dirancang untuk memonitor lalu lintas secara efektif. Dengan menggabungkan deep learning, YOLO, dan computer vision, sistem ini mampu mendeteksi dan menghitung kendaraan dengan tingkat akurasi yang tinggi. Pengguna dapat memanfaatkan antarmuka pengguna grafis (GUI) untuk memantau alur lalu lintas, tingkat kemacetan, dan kondisi lingkungan melalui pemantauan CCTV. Dengan basis pengetahuan yang berfokus pada pelatihan model menggunakan gambar kamera lalu lintas, serta implementasi algoritma pembelajaran mendalam, sistem ini diharapkan dapat memberikan kontribusi dalam manajemen lalu lintas dan perencanaan infrastruktur transportasi.
